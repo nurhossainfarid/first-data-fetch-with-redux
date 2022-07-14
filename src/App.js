@@ -4,22 +4,22 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>First Data fetch with Redux</h1>
     </div>
   );
 }
 
 export default App;
+
+
+
+
+/* ------------------------------------------- initial plane --------------------------------------------- */
+// step-1: install all packages
+// step-2: constant define
+// step-3: async action creator
+// step-4: Reducer 
+// step-5: create store 
+// step-6: provide store
+// step-7: use store
+// step-8: add design for project
